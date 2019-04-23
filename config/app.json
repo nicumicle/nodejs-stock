@@ -1,0 +1,11 @@
+{
+    "app" : {
+        "port" : 3010,
+        "hash_salt" : 10,
+        "records_per_page": 100
+    },
+    "jwt" : {
+        "jwtSecretKey": "MySecreyKeyMNG",
+        "expiresIn" : "1h"
+    }
+}
